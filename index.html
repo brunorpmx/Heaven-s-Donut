@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heaven's Donuts</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/styles/images/chocolate-donut.svg"
+    />
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="/styles/images/heavens-donut-logo.svg"
+          alt="Heavens Donut Logo"
+        />
+      </div>
+    </header>
+    <main>
+      <div class="message">
+        <h1>Seja Bem-Vindo (a)</h1>
+        <p>
+          A massa da <i>Heaven's Donuts</i> é fofinha e derrete na boca. <br />
+          Contamos atualmente com 7 sabores deliciosos, venha conhecer !
+        </p>
+      </div>
+      <div class="buttons-container">
+        <a
+          href="https://instagram.com/heavens.donuts?igshid=gi11b2p3ax0k"
+          class="instagram"
+          ><img
+            src="/styles/images/instagram-icon.svg"
+            alt="Instagram-image"
+          />Siga-nos</a
+        >
+        <a
+          href="https://api.whatsapp.com/send?1=pt_BR&phone=5537991339426&text=Olá Matheus, gostaria de fazer um pedido 🍩"
+          class="whatsapp"
+          ><img
+            src="/styles/images/whatsapp-icon.svg"
+            alt="Whatsapp-image"
+            class="whatsapp-logo"
+          />Faça seu pedido</a
+        >
+        <button class="menu" id="modalButton">
+          <img src="/styles/images/chocolate-donut.svg" alt="Menu icon" />
+          Cardápio
+        </button>
+      </div>
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img
+          class="modal-content"
+          id="imgModal"
+          src="/styles/images/heavens-donut-menu.png"
+          alt="Cardápio"
+        />
+      </div>
+    </main>
+  </body>
+  <script src="/scripts/menuModal.js"></script>
+</html>
